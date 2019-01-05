@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+query = ARGV.join(" ")
+
+system "google-chrome 'https://google.com/search?q=#{query}'"
